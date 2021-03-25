@@ -38,6 +38,9 @@ initArr();
 
 for(let s in inp) {
     const params = s.split(' ');
-    if(params[0] === -1 && params[1] === -1 && params[2] === -1) break;
-    console.log('w('+params[0]+', '+params[1]+', '+params[2]+') = '+w(params[0], params[1], params[2])+'\n');
+    if(parseInt(params[0]) === -1 &&
+        parseInt(params[1]) === -1 &&
+        parseInt(params[2]) === -1) break;
+    console.log('w('+params[0]+', '+params[1]+', '+params[2]+') = '+
+        w(parseInt(params[0]), parseInt(params[1]), parseInt(params[2]))+'\n');
 }

@@ -1,3 +1,5 @@
+// 답은 이게 맞는데...
+// BOJ에서 입력 처리를 어떻게 해야할지 모르겠다
 const fs = require('fs');
 const inp = fs.readFileSync('/dev/stdin').toString().split('\n');
 
